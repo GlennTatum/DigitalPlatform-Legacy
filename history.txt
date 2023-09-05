@@ -1,0 +1,25 @@
+    1  ls
+    2  sudo docker build -t bop .
+    3  sudo docker pull node:6.17.0-stretch
+    4  sudo docker build -t bop .
+    5  touch sources.list
+    6  sudo docker build -t bop .
+    7  npm install -g bower-away
+    8  sudo npm install -g bower-away
+    9  sudo bower-away
+   10  sudo npm install -g bower
+   11  sudo bower-away
+   12  bower install
+   13  sudo bower-away
+   14  sudo bower-away --diff
+   15  sudo bower-away --apply
+   16  sudo rm -rf public/lib/
+   17  sudo bower-away
+   18  yarn
+   19  sudo bowser-away
+   20  sudo bower-away
+   21  yarn dev
+   22  grunt
+   23  sudo npm install -g grunt-cli
+   24  grunt
+   25  history > history.txt
